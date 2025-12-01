@@ -36,5 +36,5 @@ jobs:
       - name: Push changes to same branch
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ github_pat_11ALFJGPA0KvSlTnbuFcm-p_D7GIM5qjHbCDlqD2ylcrPstQKkhX-C7b3PnhsmH3VbssI5S3UCUEtPbtVP14 }}
           branch: ${{ github.ref_name }}
