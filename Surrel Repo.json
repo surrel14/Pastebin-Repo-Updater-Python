@@ -1,0 +1,209 @@
+{
+  "name": "Surrel Repo",
+  "iconURL": "https://i.ibb.co/TBXq3CT5/IMG-0777.jpg",
+  "identifier": "com.iveuvian.repo",
+  "apps": [
+    {
+      "beta": false,
+      "name": "Evertag Pro",
+      "bundleIdentifier": "com.leshko.tagseditor",
+      "developerName": "iVesuvian",
+      "subtitle": "Evertag 3.7 Pro Fixed",
+      "version": "3.7",
+      "versionDate": "2025-08-14T11:36:00+02:00",
+      "versionDescription": "Evertag 3.7 Pro Fixed",
+      "downloadURL": "https://archive.org/download/evertag-3.7-1754052351/Evertag_3.7_1754052351.ipa",
+      "localizedDescription": "Evertag 3.7 Pro Fixed",
+      "iconURL": "https://i.ibb.co/8LkKzLW1/IMG-0787.webp",
+      "tintColor": "03befc",
+      "size": 37694355,
+      "screenshotURLs": [
+        "https://i.ibb.co/KcWG3ytm/IMG-0803.png",
+        "https://i.ibb.co/7JCX4kTB/IMG-0804.png",
+        "https://i.ibb.co/YTKNyHtP/IMG-0805.png"
+      ]
+    },
+    {
+      "beta": false,
+      "name": "Reddit Deluxe",
+      "bundleIdentifier": "com.reddit.Reddit",
+      "developerName": "iVesvian",
+      "subtitle": "Reddit Deluxe 2025.11.0",
+      "version": "2025.11.0",
+      "versionDate": "2025-08-14T11:36:00+02:00",
+      "versionDescription": "Reddit Deluxe 2025.11.0",
+      "downloadURL": "https://archive.org/download/reddit-deluxe-2025.11.0-jacks-apps/RedditDeluxe_2025.11.0_Jacks_Apps.ipa",
+      "localizedDescription": "Reddit Deluxe 2025.11.0",
+      "iconURL": "https://i.ibb.co/zTH8MSnV/app-launch-40-3x.png",
+      "tintColor": "03befc",
+      "size": 137454205,
+      "screenshotURLs": [
+        "https://i.ibb.co/B5qjfxkq/IMG-0828.png",
+        "https://i.ibb.co/N6bBbqV8/IMG-0829.png",
+        "https://i.ibb.co/TDDf0mrt/IMG-0830.png"
+      ]
+    },
+    {
+      "beta": false,
+      "name": "E-sign",
+      "bundleIdentifier": "p3.xyz.yyyue.esign",
+      "developerName": "iVesuvian",
+      "subtitle": "E-sign v5.0.2 No Logs",
+      "version": "5.0.2",
+      "versionDate": "2025-08-14T11:36:00+02:00",
+      "versionDescription": "E-sign v5.0.2 No Logs",
+      "downloadURL": "https://archive.org/download/esign-v-5.0.2-no-logs/ESign-V5.0.2-No-Logs.ipa",
+      "localizedDescription": "E-sign v5.0.2 No Logs",
+      "iconURL": "https://i.ibb.co/7JVjzqt7/IMG-0835.jpg",
+      "tintColor": "03befc",
+      "size": 8161611,
+      "screenshotURLs": [
+        "https://i.ibb.co/WWPgsbgz/IMG-0833.png",
+        "https://i.ibb.co/dwS4MNjc/IMG-0832.png",
+        "https://i.ibb.co/39FnJZ6M/IMG-0831.png"
+      ]
+    },
+    {
+      "beta": false,
+      "name": "YTPlus",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "iVesuvian",
+      "subtitle": "YTPlus v20.42.3",
+      "version": "20.42.3",
+      "versionDate": "2025-10-22T11:36:00+02:00",
+      "versionDescription": "YTPlus v20.33.2",
+      "downloadURL": "https://archive.org/download/you-tube-plus-v-20.42.3/YouTubePlus_v20.42.3.ipa",
+      "IlocalizedDescription": "YTPlus v20.42.3",
+      "iconURL": "https://i.ibb.co/bjz2VTQP/IMG-0836.png",
+      "tintColor": "03befc",
+      "size": 126230475,
+      "screenshotURLs": [
+        "https://i.ibb.co/ZpfTLC16/IMG-0837.png",
+        "https://i.ibb.co/WvQ29Nzt/IMG-0838.png",
+        "https://i.ibb.co/0ppsPK3P/IMG-0839.png"
+      ]
+    },
+    {
+      "beta": false,
+      "name": "SoundCloud No Ads",
+      "bundleIdentifier": "com.soundcloud.TouchApp",
+      "developerName": "iVesuvian",
+      "subtitle": "SoundCloud 8.22.2 No Ads",
+      "version": "8.22.2",
+      "versionDate": "2025-08-12T11:36:00+02:00",
+      "versionDescription": "SoundCloud 8.22.2 No Ads",
+      "downloadURL": "https://archive.org/download/sound-cloud-8.22.2-1754734637/SoundCloud_8.22.2_1754734637.ipa",
+      "localizedDescription": "SoundCloud 8.22.2 No Ads",
+      "iconURL": "https://i.ibb.co/KxkDR9bq/fa23de1b4a2025b4205f6a3a16dce0ee.png",
+      "tintColor": "03befc",
+      "size": 98000000,
+      "screenshotURLs": [
+        "https://i.ibb.co/zTjGTQx5/IMG-0844.png",
+        "https://i.ibb.co/7dy0bcYR/IMG-0845.png",
+        "https://i.ibb.co/jvKGQcPj/IMG-0846.png"
+      ]
+    },
+     {
+      "beta": false,
+      "name": "Sora",
+      "bundleIdentifier": "me.cranci.sulfur",
+      "developerName": "iVesuvian",
+      "subtitle": "Sora v1.0.1",
+      "version": "1.0.1",
+      "versionDate": "2025-08-12T11:36:00+02:00",
+      "versionDescription": "A modular media player for iOS and MacOS",
+      "downloadURL": "https://ia601000.us.archive.org/19/items/sora-v-1.0.1/Sora_v1.0.1.ipa",
+      "localizedDescription": "A modular media player for iOS and MacOS",
+      "iconURL": "https://i.ibb.co/Y4Cj884j/IMG-0875.png",
+      "tintColor": "03befc",
+      "size": 2784885,
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-1.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-2.png",
+        "https://raw.githubusercontent.com/cranci1/Sora/refs/heads/dev/assets/screenshots/ios-3.png"
+      ]
+    },
+     {
+      "beta": false,
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "iVesuvian",
+      "subtitle": "Feather v2.3.1",
+      "version": "2.3.1",
+      "versionDate": "2025-08-12T11:36:00+02:00",
+      "versionDescription": "An on-device signer and installer",
+      "downloadURL": "https://archive.org/download/feather-v-2.3.1/Feather_v2.3.1.ipa",
+      "localizedDescription": "An on-device signer and installer",
+      "iconURL": "https://i.ibb.co/0ykvv00m/IMG-0907.png",
+      "tintColor": "03befc",
+      "size": 12784885,
+      "screenshotURLs": [
+        "https://i.ibb.co/2YqGGCW0/IMG-0904.png",
+        "https://i.ibb.co/WSMQ2vD/IMG-0905.png",
+        "https://i.ibb.co/BKCD45F5/IMG-0906.png"
+      ]
+    },
+     {
+      "beta": false,
+      "name": "Noir",
+      "bundleIdentifier": "nl.jeffreykuiken.NoirApp",
+      "developerName": "iVesuvian",
+      "subtitle": "Noir 2025.1.7",
+      "version": "2025.1.7",
+      "versionDate": "2025-08-12T11:36:00+02:00",
+      "versionDescription": "Make any website dark on Safari",
+      "downloadURL": "https://archive.org/download/noir-dark-mode-for-safari-2025.1.7/Noir%20-%20Dark%20Mode%20for%20Safari%202025.1.7.ipa",
+      "localizedDescription": "Make any website dark on Safari",
+      "iconURL": "https://i.ibb.co/qLFCbg7r/IMG-0911.png",
+      "tintColor": "03befc",
+      "size": 9884885,
+      "screenshotURLs": [
+        "https://i.ibb.co/B2KQwgkN/IMG-0908.png",
+        "https://i.ibb.co/pjH4zJGx/IMG-0909.png",
+        "https://i.ibb.co/YBcWdh3h/IMG-0910.png"
+      ]
+    },
+
+     {
+      "beta": false,
+      "name": "Spotify",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "iVesuvian",
+      "subtitle": "Spotify v9.0.74",
+      "version": "9.0.74",
+      "versionDate": "2025-08-30T11:36:00+02:00",
+      "versionDescription": "Popular music service with Premium features",
+      "downloadURL": "https://files.catbox.moe/k1j8z8.ipa",
+      "localizedDescription": "Popular music service with Premium features",
+      "iconURL": "https://i.ibb.co/Mkmj4fG9/IMG-0949.png",
+      "tintColor": "03befc",
+      "size": 88584885,
+      "screenshotURLs": [
+        "https://i.ibb.co/8nrCpVN4/IMG-0946.png",
+        "https://i.ibb.co/LDbF36jR/IMG-0947.png",
+        "https://i.ibb.co/VYTmTkqW/IMG-0948.png"
+      ]
+    },
+     {
+      "beta": false,
+      "name": "K-Sign",
+      "bundleIdentifier": "nya.asami.ksign",
+      "developerName": "iVesuvian",
+      "subtitle": "K-Sign v1.4",
+      "version": "1.4",
+      "versionDate": "2025-08-21T11:36:00+02:00",
+      "versionDescription": "A on-device signer and installer for iOS",
+      "downloadURL": "https://archive.org/download/ksign-v-1.4/Ksign_v1.4.ipa",
+      "localizedDescription": "A on-device signer and installer for iOS",
+      "iconURL": "https://i.ibb.co/tP4YDTYH/IMG-0685.png",
+      "tintColor": "03befc",
+      "size": 16584885,
+      "screenshotURLs": [
+        "https://i.ibb.co/KvrY51z/IMG-0952.png",
+        "https://i.ibb.co/JjSTppdr/IMG-0953.png",
+        "https://i.ibb.co/kpd7wcQ/IMG-0954.png"
+      ]
+    }
+  ]
+}
+ 
