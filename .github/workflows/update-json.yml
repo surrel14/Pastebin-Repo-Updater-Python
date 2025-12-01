@@ -1,4 +1,5 @@
 name: Update JSON from IPA
+github_token: ${{github_pat_11ALFJGPA0KvSlTnbuFcm-p_D7GIM5qjHbCDlqD2ylcrPstQKkhX-C7b3PnhsmH3VbssI5S3UCUEtPbtVP14}}
 
 on:
   push:
