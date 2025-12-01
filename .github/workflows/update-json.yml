@@ -3,7 +3,7 @@ name: Update JSON from IPA
 on:
   push:
     branches:
-      - master
+      - '**'
   workflow_dispatch:
 
 jobs:
@@ -14,9 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false
           fetch-depth: 0
-          ref: master
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -31,11 +29,11 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add repo.json
-          git commit -m "Auto update repo.json" || echo "No changes"
+          git add repo.json || true
+          git commit -m "Auto update repo.json" || echo "No changes to commit"
 
-      - name: Push changes
+      - name: Push changes to same branch
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: ${{ github.ref_name }}
