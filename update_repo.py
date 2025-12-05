@@ -28,6 +28,31 @@ def get_ipa_info(ipa_path):
     info["size"] = os.path.getsize(ipa_path)
     return info
 
+def build_app_entry(extracted_info, existing=None):
+    """
+    Build a full app entry from extracted IPA info.
+    If `existing` is provided, preserve fields that are not present in the IPA.
+    """
+    existing = existing or {}
+    name = extracted_info.get("name") or existing.get("name", "")
+    subtitle = extracted_info.get("displayName") or existing.get("subtitle", "") or existing.get("displayName", "")
+    return {
+        "beta": existing.get("beta", False),
+        "name": name,
+        "bundleIdentifier": extracted_info.get("bundleIdentifier", ""),
+        "version": extracted_info.get("version", ""),
+        "size": extracted_info.get("size", 0),
+        "subtitle": subtitle,
+        "developerName": existing.get("developerName", "UNKNOWN"),
+        "versionDate": existing.get("versionDate", ""),
+        "versionDescription": existing.get("versionDescription", ""),
+        "downloadURL": existing.get("downloadURL", ""),
+        "localizedDescription": existing.get("localizedDescription", ""),
+        "iconURL": existing.get("iconURL", ""),
+        "tintColor": existing.get("tintColor", "03befc"),
+        "screenshotURLs": existing.get("screenshotURLs", []),
+    }
+
 print("Loading JSON...")
 with open(JSON_FILE, 'r', encoding="utf-8") as f:
     db = json.load(f)
@@ -43,39 +68,18 @@ for file in os.listdir(IPA_FOLDER):
             continue
         
         found = False
-        for app in db["apps"]:
-            if app["bundleIdentifier"] == extracted_info["bundleIdentifier"]:
+        for idx, app in enumerate(db.get("apps", [])):
+            if app.get("bundleIdentifier") == extracted_info.get("bundleIdentifier"):
                 found = True
-                print("✔ Updating existing JSON entry:")
+                print("✔ Overwriting existing JSON entry for:")
                 print("   ", extracted_info["bundleIdentifier"])
                 
-                app["version"] = extracted_info["version"]
-                app["size"] = extracted_info["size"]
-
-                if extracted_info["name"]:
-                    app["name"] = extracted_info["name"]
-
-                if extracted_info["displayName"]:
-                    app["subtitle"] = extracted_info["displayName"]
+                # Build a new entry, preserving other metadata from the existing record
+                db["apps"][idx] = build_app_entry(extracted_info, existing=app)
         
         if not found:
             print("➕ Adding NEW app entry to JSON")
-            db["apps"].append({
-                "beta": False,
-                "name": extracted_info["name"],
-                "bundleIdentifier": extracted_info["bundleIdentifier"],
-                "version": extracted_info["version"],
-                "size": extracted_info["size"],
-                "subtitle": extracted_info["displayName"],
-                "developerName": "UNKNOWN",
-                "versionDate": "",
-                "versionDescription": "",
-                "downloadURL": "",
-                "localizedDescription": "",
-                "iconURL": "",
-                "tintColor": "03befc",
-                "screenshotURLs": []
-            })
+            db.setdefault("apps", []).append(build_app_entry(extracted_info, existing=None))
 
 print("\n💾 Saving JSON...")
 with open(JSON_FILE, 'w', encoding="utf-8") as f:
